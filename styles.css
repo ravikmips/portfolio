@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Poppins:ital,wght@0,200;0,700;1,400&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+     background-color:black;
+     width: 200px;
+     height: 100vh;
+     font-family: 'La Belle Aurore', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.sidebar nav{
+    padding: 50px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding: 15px 0;
+}
+.sidebar nav a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    background-color: lightskyblue;
+}
+.container{
+    display: flex;
+
+}
+.infoContainer{
+    /* background-color: rebeccapurple; */
+    height: 38vh;
+    width: 80vw ;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+   font-size: 50px;
+}
+.name{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.about{
+    font-size: 35px;
+
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 13px;
+}
+.button{
+    margin-top: 15px;
+
+}
+.button button{
+      padding: 9px 14px;
+      cursor: pointer;
+      border-radius: 22px;
+      color: white;
+      background-color: rgb(6, 102, 133);
+      font-weight: bold;
+      font-size: 15px;
+      margin: 0 3px;
+}
+.button button:hover{
+    background-color: white;
+    color: rgb(6, 102, 133);
+}
+.btn{
+    background-color: rgb(22, 22, 123);
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.devPic img{
+   width: 180px;
+   height: 25vh;
+   border-radius: 1000px; 
+}
+.contactform{
+   padding: 0 34px;
+   padding-top: 80px;
+   font-family: 'Poppins', sans-serif;
+}
+.contactform h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 3px 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 2px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+  width: 24px;
+  margin: 3px 0 ;
+}
+.blogitem{
+   margin: 20px;
+   font-family: 'Poppins', sans-serif;
+}
+.blogitem h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 23px;
+}
+.blogitem p{
+    font-family: 'Poppins', sans-serif;
+}
+.readmore{
+    background-color: rgb(164, 186, 84);
+    color: rgb(21, 6, 6);
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 5px;
+    margin: 6px;
+}
+.skillcontainer li{
+   margin-left: 20px;
+}
+.aboutme{
+    text-align: center;
+    margin-top: -5px;
+    color: white;
+}
+@media (max-width: 1615px) {
+    background-color: green;
+
+    
+}
